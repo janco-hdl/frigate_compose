@@ -18,8 +18,8 @@ services:
         tmpfs:
           size: 1000000000
     ports:
-      - "8971:8972"
-      - "5000:5002" # Internal unauthenticated access. Expose carefully.
-      - "8554:8552" # RTSP feeds
-      - "8555:8552/tcp" # WebRTC over tcp
-      - "8555:8552/udp" # WebRTC over udp
+      - "8972:8971"
+      - "5002:5000" # Internal unauthenticated access. Expose carefully.
+      - "8552:8554" # RTSP feeds
+      - "8552:8555/tcp" # WebRTC over tcp
+      - "8552:8555/udp" # WebRTC over udp
